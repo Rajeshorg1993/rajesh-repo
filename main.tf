@@ -7,3 +7,12 @@ terraform {
     }
 }
 
+provider "azurerm" {
+    features {}
+}
+
+resource "azurerm_resource_group" "rgs" {
+    name = "test"
+    location = "eastus"
+}
+
