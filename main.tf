@@ -13,6 +13,6 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rgs" {
     name = "test"
-    location = "westus"
+    location = "centralindia"
 }
 
